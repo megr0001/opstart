@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigationbar">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Forside</a></li>
+                    <li><a href="kategori.html">Kategorier</a></li>
+                    <li><a href="produkt.html">Produkt</a></li>
+                    <li><a href="produktliste.html">Produktliste</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>FashionRus</h1>
+        <section>
+            <h2>Produkter</h2>
+            <div class="produkt_container">
+                <div class="produkt_article">
+                    <img class="produkt_image" src="https://kea-alt-del.dk/t7/images/webp/640/1573.webp" alt="bukser">
+                    <p class="produkt_udsalg hide">Udsalg</p>
+                </div>
+                <div class="produkt_article">
+                    <img class="produkt_image" src="https://kea-alt-del.dk/t7/images/webp/1000/1533.webp"
+                        alt="rød puma trøje">
+                </div>
+                <div class="produkt_article">
+                    <img class="produkt_image" src="https://kea-alt-del.dk/t7/images/jpg/640/1552.jpg" alt="puma bold">
+                </div>
+                <div class="produkt_article">
+                    <img class="produkt_image" src="https://kea-alt-del.dk/t7/images/jpg/1000/1580.jpg" alt="kvindetop">
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<template class="produkt_template">
+    <article class="produkt_article">
+        <div class="produkt_info">
+            <p class="produkt_udsolgt">Udsolgt</p>
+            <p class="udsolgt hide">Udsolgt</p>
+        </div>
+        <div class="produkt_image_container">
+            <img class="produkt_image" />
+        </div>
+        <h3 class="produkt_name">Goood Beer</h3>
+        <p class="produkt_tagline">Drink god beer</p>
+        <p class="produkt_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <a class="produkt_link"></a>
+    </article>
+</template>
